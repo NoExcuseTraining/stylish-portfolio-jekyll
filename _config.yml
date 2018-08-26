@@ -1,12 +1,12 @@
 # Site settings
-title: noexcusetrainingresults.com
+title: N.E.T. Results
 email: info@noexcusetrainingresults.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Jess DeHart is a certified RRCA Running coachand NASM certified personal trainer.
+  Jess understands that strength and endurance do not come from physical capacity.
+  They come from the willingness and tenacity to set a goal and exceed it. Let Jess help you achieve your N.E.T. Results.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: info@noexcusetrainingresults.com # the base hostname & protocol for your site
 
 # User setting
 owner: Jess DeHart
@@ -19,7 +19,7 @@ address:
   - line: Nesconset, NY 11767
   # Feel free to add more lines here
 telephone: 516-909-6271
-#copyright:
+copyright: BlackrockDigital &amp Volny
 
 # API settings
 google_api_key:
