@@ -44,4 +44,35 @@
     font-size: 3vw;
 }
 
+.vcenter {
+   display: inline-block;
+   vertical-align: middle;
+   float: none;
+}
 
+.callout-name {
+    display: table;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6  )), url(../img/medals.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.callout-small {
+    display: table;
+    width: 100%;
+    height: 200px;
+    color: #fff;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
