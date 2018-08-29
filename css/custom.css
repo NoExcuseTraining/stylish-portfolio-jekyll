@@ -76,3 +76,11 @@
     background-size: cover;
     -o-background-size: cover;
 }
+
+.side-border {
+  border-left: 1px solid rgb(238, 238, 238);
+}
+
+.jess-list {
+  font-size: 1.5em;
+}
