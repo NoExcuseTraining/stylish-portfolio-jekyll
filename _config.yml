@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Jess understands that strength and endurance do not come from physical capacity.
   They come from the willingness and tenacity to set a goal and exceed it. Let Jess help you achieve your N.E.T. Results.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://wwww.noexcusetrainingresults.com # the base hostname & protocol for your site
+url: https://www.noexcusetrainingresults.com # the base hostname & protocol for your site
 
 # User setting
 owner: Jess DeHart
