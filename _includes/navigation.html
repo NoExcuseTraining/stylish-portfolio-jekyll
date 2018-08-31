@@ -3,22 +3,22 @@
   <ul class="sidebar-nav">
     <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
     <li class="sidebar-brand">
-      <a href="#top"  onclick = $("#menu-close").click(); >{{ site.title }}</a>
+      <a href="{{ site.url }}s"  onclick = $("#menu-close").click(); >{{ site.title }}</a>
     </li>
     <li>
-      <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+      <a href="{{ site.url }}#top" onclick = $("#menu-close").click(); >Home</a>
     </li>
     <li>
-      <a href="#services" onclick = $("#menu-close").click(); >Pricing</a>
+      <a href="{{ site.url }}#services" onclick = $("#menu-close").click(); >Pricing</a>
     </li>
     <li>
-      <a href="#testimonials" onclick = $("#menu-close").click(); >Testimonials</a>
+      <a href="{{ site.url }}#portfolio" onclick = $("#menu-close").click(); >Testimonials</a>
     </li>
     <li>
-      <a href="/about" onclick = $("#menu-close").click(); >About</a>
+      <a href="{{ site.url }}/about" onclick = $("#menu-close").click(); >About</a>
     </li>
     <li>
-      <a href="/contact" onclick = $("#menu-close").click(); >Contact</a>
+      <a href="{{ site.url }}/contact" onclick = $("#menu-close").click(); >Contact</a>
     </li>
   </ul>
 </nav>
