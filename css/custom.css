@@ -33,7 +33,7 @@
 }
 
 .container-user .profile {
-    background-image: url('/img/anon.gif');
+    background-image: url('/img/profile-pic.jpg');
 }
 
 .container-user .name {
@@ -41,13 +41,18 @@
     margin: 0 auto;
     text-align: center;
     font-weight: 400;
-    font-size: 3vw;
+    font-size: 3em;
 }
 
 .vcenter {
+    display: block;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+    /*
    display: inline-block;
    vertical-align: middle;
-   float: none;
+   float: none;*/
 }
 
 .callout-name {
@@ -70,7 +75,10 @@
     width: 100%;
     height: 200px;
     color: #fff;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6  )), url(../img/room.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -83,4 +91,73 @@
 
 .jess-list {
   font-size: 1.5em;
+}
+.qualification-item {
+    line-height: 1.75;
+}
+
+.vertical-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.separate {
+    width: 75%;
+    border-width: medium;
+}
+
+.price h1 {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.price h3 {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.col-centered{
+float: none;
+margin: 0 auto;
+}
+
+/** Contact **/
+#contact-form {
+  padding-top: 70px;
+  padding-bottom: 35px;
+}
+#contact-form .bloc .form-group {
+  padding-bottom: 15px;
+  margin: 0px;
+}
+#contact-form .block .form-group .form-control {
+  background: #F6F8FA;
+  height: 60px;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  width: 100%;
+}
+#contact-form .block .form-group-2 {
+  padding-bottom: 15px;
+  margin: 0px;
+}
+#contact-form .block .form-group-2 textarea {
+  background: #F6F8FA;
+  height: 135px;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  width: 100%;
+}
+#contact-form .block button {
+  width: 100%;
+  height: 60px;
+  background: #47424C;
+  border: none;
+  color: #fff;
+  font-size: 18px;
 }
