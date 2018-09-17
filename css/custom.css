@@ -161,3 +161,8 @@ margin: 0 auto;
   color: #fff;
   font-size: 18px;
 }
+
+.portfolio-item {
+    box-shadow: 8px 8px 6px -6px #777;
+    border: 1px grey solid;
+}
