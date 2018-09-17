@@ -4,38 +4,26 @@
       <div class="col-lg-10 col-lg-offset-1 text-center">
         <h2>Don't just take our word for it! Hear what others are saying</h2>
         <hr class="small">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /.row (nested) -->
-        <!--<a href="#" class="btn btn-dark">View More Items</a>-->
+    </div>
+
+    <!-- Google review https://github.com/simonneutert/jquery-google-reviews/ -->
+    <!-- Copyright (c) 2018, Simon Neutert -->
+    <div class="col-lg-10 col-lg-offset-1 text-center">
+        <div id="google-reviews" class='row'></div>
+    </div>
+
+  <script>
+    jQuery(document).ready(function($) {
+      if ($("#google-reviews").length == 0) {
+        return;
+      }
+      //Find a placeID via https://developers.google.com/places/place-id
+      $("#google-reviews").googlePlaces({
+           min_rating: 4, // minimum rating of reviews to be displayed
+        placeId: 'ChIJkapSdv056IkR5F9_v0XVrKs',
+      });
+    });
+  </script>
       </div>
       <!-- /.col-lg-10 -->
     </div>
