@@ -20,8 +20,8 @@ Copyright (c) 2018, Simon Neutert
       // These are the defaults.
       header: "",
       footer: "",
-      max_rows: 6,
-      min_rating: 4,
+      max_rows: 4,
+      min_rating: 5,
       months: ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
       text_break_length: "90",
       shorten_names: true,
@@ -99,7 +99,7 @@ Copyright (c) 2018, Simon Neutert
         var date = convertTime(reviews[i].time);
         var name = settings.shorten_names ? shorten_name(reviews[i].author_name) : reviews[i].author_name;
         var style = (reviews[i].text.length > parseInt(settings.text_break_length)) ? "review-item-long" : "review-item";
-        html = html + "<div class="+ style +" col-sm-10 col-md-10 col-lg-10><div class='review-meta'><span class='review-author'>" + name + "</span><span class='review-sep'></span>" + "</div>" + stars + "<p class='review-text'>" + reviews[i].text + "</p></div>";
+        html = html + "<div class="+ style +" col-sm-6 col-md-6 col-lg-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 ><div class='review-meta'><span class='review-author'>" + name + "</span><span class='review-sep'></span>" + "</div>" + stars + "<p class='review-text'>" + reviews[i].text + "</p></div>";
         // I do not need to display the date... but if you do:
         // +"<br><span class='review-date'>"+date+"</span>"+
       }
