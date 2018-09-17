@@ -20,9 +20,5 @@ address:
   # Feel free to add more lines here
 telephone: 516-909-6271
 copyright: BlackrockDigital &amp Volny
-
-# API settings
-google_api_key:
-
 # Build settings
 markdown: kramdown
