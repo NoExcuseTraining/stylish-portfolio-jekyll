@@ -20,8 +20,8 @@ Copyright (c) 2018, Simon Neutert
       // These are the defaults.
       header: "",
       footer: "",
-      max_rows: 6,
-      min_rating: 4,
+      max_rows: 4,
+      min_rating: 5,
       months: ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
       text_break_length: "90",
       shorten_names: true,
